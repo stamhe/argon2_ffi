@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-    ndkVersion System.getProperty("design.codeux.ndkVersion", "21.0.6113669")
+    ndkVersion System.getProperty("design.codeux.ndkVersion", "25.1.8937393")
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
